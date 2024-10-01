@@ -1,0 +1,43 @@
+/* Home.css */
+.date-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .date-labels span {
+    flex: 1;
+    text-align: center;
+    font-size: 12px; /* Tamanho da fonte para as labels */
+  }  
+
+.home-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-container label {
+    font-size: 16px;
+  }
+  
+  .filter-container select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 400px;
+  }
+  
